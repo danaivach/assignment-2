@@ -16,11 +16,7 @@ The project requires [Python](https://www.python.org/) >= 3.6.
 ├── search # includes implementations of different search algorithms (i.e. astar,wastar,gbf,bfs,ehs,ids,sat)
 │   ├── a_star.py # (altered in Task 2) template of A* search algorithm 
 │   ├── breadth_first_search.py
-│   ├── enforced_hillclimbing_search.py
-│   ├── instructions.txt
-│   ├── iterative_deepening_search.py
-│   ├── minisat.py
-│   ├── sat.py
+│   ├── ...
 │   └── searchspace.py # (used in Task 2) includes a class for creating instance nodes that are visited during search 
 ├── task.py # (altered in for Task 2)  includes classes for creating Operators and STRIPS-like instances  ⟨Propositional arguments, Operators , Initial state , Goals⟩  
 ├── plan.py # (used in Task 2) the main script for solving a planning problem 
