@@ -24,7 +24,7 @@ The project requires [Python](https://www.python.org/) >= 3.6.
 ├── heuristics # includes implementations of different heuristic methods (i.e. blind,landmark,lmcut,hadd,hff,hmax,hsa)
 ├── grounding.py # grounding a schematic PDDL task to a STRIPS planning task
 ├── planner.py # a STRIPS-like planner
-├── tools.py # additional tools
+├── ...
 └── README.md # this README.md
 ```
 
