@@ -1,11 +1,24 @@
 # Exercise 2: Automated Planning
 
-A partial implementation of a STRIPS-like planner [1] in Python. The the planner solves a problem based on a domain, where both the *problem* and the *domain* are defined in [PDDL 1.2](https://planning.wiki/ref/pddl). The implemenation is based on [pyperplan](https://github.com/aibasel/pyperplan).
-
-[1] THIS IS NOT ON THE COURSE MATERIAL, PROVIDE PUBLIC ALTERNATIVE OR SLIDES Ghallab, M., Nau, D., & Traverso, P. (2004). Automated Planning: theory and practice, CHAPTER 4. Elsevier.
+A partial implementation of a STRIPS-like planner in Python. The the planner solves a problem based on a domain, where both the *problem* and the *domain* are defined in [PDDL 1.2](https://planning.wiki/ref/pddl). The implemenation is based on [pyperplan](https://github.com/aibasel/pyperplan).
 
 ### Requirements
 The project requires [Python](https://www.python.org/) >= 3.6.
+
+### Task 2: Files of interest
+- Complete the implementation of `task.py` 
+   - `task.py`: includes classes for creating Operators and STRIPS-like instances  ⟨Propositional arguments, Operators , Initial state , Goals⟩  
+     - Implement the methods `applicable()` and `apply()` of the `Operator` class
+     - Implement the methods `goal_reached()` and `get_successor_states()` of the `Task` class
+- Complete the implementation of `search/a_star.py` 
+   - `a_star.py`: includes methods for searching based on the A* search algorithm
+     - Complete the method `astar_search()` 
+   - `searchspace.py`: includes a `SearchNode` class for creating instance nodes that are visited during search 
+
+### Task 3: Files of interest
+- Examine the `task-3/t3-domain.py` and the `task-3/t3-problem.py`, and the behavior of the planner when solving the problem in the domain, so that you answer the questions provided to you in the exescise sheet. 
+  - `t3-domain.py`: the domain
+  - `t3-problem.py`: the problem
 
 ### Project structure
 ```bash
