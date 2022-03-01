@@ -1,4 +1,4 @@
-(define (domain BLOCKS)
+(define (domain blocks-world-domain)
   (:requirements :strips :typing)
   (:types block)
   (:predicates (on ?x - block ?y - block)
