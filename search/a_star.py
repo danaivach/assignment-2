@@ -209,7 +209,7 @@ def astar_search(
         #         state_cost dictionary (see before loop)
        
         
-        # If the state cost of pop_state is equal to pop_g (step 2):
+        # If the state cost of pop_state is equal to pop_g (Step 5):
             # ---- Step 5 ----
             # Increase the expansions counter and optionally print it
 
